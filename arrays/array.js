@@ -34,17 +34,3 @@ class MyArray {
     this.length--;
   }
 }
-
-const array = new MyArray();
-console.log(array.push("hello"));
-console.log(array.push("hello"));
-console.log(array.push("hello"));
-console.log(array.push("hello"));
-console.log(array.push("hello"));
-console.log(array.push("hello"));
-console.log(array.push("yoy!"));
-console.log(array.pop());
-console.log(array.push("yoy!"));
-array.delete(3);
-array.shiftItems(3);
-console.log(array.data);

@@ -1,3 +1,5 @@
+// create a function that merges two arrays and sorts them
+
 // merge arrays using concat and sort
 const mergeSortedArrays = (arr1, arr2) => arr1.concat(arr2).sort();
 
